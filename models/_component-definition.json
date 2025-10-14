@@ -1,0 +1,61 @@
+{
+  "groups": [
+    {
+      "title": "Default Content",
+      "id": "default",
+      "components": [
+        {
+          "...": "./_text.json#/definitions"
+        },
+        {
+          "...": "./_title.json#/definitions"
+        },
+        {
+          "...": "./_image.json#/definitions"
+        },
+        {
+          "...": "./_button.json#/definitions"
+        }
+      ]
+    },
+    {
+      "title": "Sections",
+      "id": "sections",
+      "components": [
+        {
+          "...": "./_section.json#/definitions"
+        }
+      ]
+    },
+    {
+      "title": "Blocks",
+      "id": "blocks",
+      "components": [
+        {
+          "...": "../blocks/*/_*.json#/definitions"
+        }
+      ]
+    },
+    {
+      "title": "Custom Form Components",
+      "id": "custom-components",
+      "components": [
+        {
+          "...": "../blocks/form/components/range/_range.json#/definitions"
+        },
+        {
+          "...": "../blocks/form/components/pan-input/_pan-input.json#/definitions"
+        },
+        {
+          "...": "../blocks/form/components/radio-card/_radio-card.json#/definitions"
+        },
+        {
+          "...": "../blocks/form/components/autocomplete-dropdown/_autocomplete-dropdown.json#/definitions"
+        },
+        {
+          "...": "../blocks/form/components/others-checkbox/_others-checkbox.json#/definitions"
+        }
+      ]
+    }
+  ]
+}
